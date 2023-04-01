@@ -1,0 +1,23 @@
+{
+    "name": "rapid/rapidmvc",
+    "description": "MVC framework for rapid development.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Core\\DataModel\\": "core/datamodel"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmed hassan",
+            "email": "ahmedh12491@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/psr7": "^2.4",
+        "jenssegers/blade": "^1.4",
+        "bramus/router": "~1.6",
+        "rakit/validation": "^1.4",
+        "statickidz/php-google-translate-free": "^1.2"
+    }
+}
